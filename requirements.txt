@@ -5,3 +5,9 @@ llama-index-core
 llama-index-readers-file
 llama-index-llms-ollama
 llama-index-embeddings-huggingface
+pypdf
+langchain
+langchain_openai
+chatpdf
+rag
+streamlit_chat
