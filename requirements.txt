@@ -1,3 +1,7 @@
 llama_index.llms.ollama
 streamlit
 llama-index
+llama-index-core
+llama-index-readers-file
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
