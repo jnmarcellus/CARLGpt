@@ -1,6 +1,0 @@
-llama_index.llms.ollama
-streamlit
-llama-index
-
-virtualenv venv
-.\venv\Scripts\activate
