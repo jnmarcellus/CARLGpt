@@ -3,6 +3,17 @@ from llama_index.core.llms import ChatMessage
 import logging
 import time
 from llama_index.llms.ollama import Ollama
+from PIL import Image
+
+image_directory = "C:\\CARL\\favicon.PNG"
+image = Image.open(image_directory)
+
+PAGE_CONFIG = {"page_title":"CARL", 
+               "page_icon":image, 
+               "layout":"centered", 
+               "initial_sidebar_state":"auto"}
+
+st.set_page_config(**PAGE_CONFIG)
 
 logging.basicConfig(level=logging.INFO)
 
@@ -77,5 +88,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
