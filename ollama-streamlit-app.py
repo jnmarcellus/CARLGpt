@@ -41,7 +41,7 @@ def copy_to_clipboard(message):
     st.success("Message copied to clipboard!")
 
 def main():
-    st.markdown("<h1 style='text-align: center;'>CARL (OBI IT Research)</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>CARL (Research)</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center;'>Corporate Assistant for Rapid Lookups</h2>", unsafe_allow_html=True)
     logging.info("App started")
 
